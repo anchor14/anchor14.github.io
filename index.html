@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="startup_landing_pg.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -64,12 +66,18 @@
 						<div class="row">
 							<div class="col-lg-6">
 				        <div class="thumbnail">
-				          <img src="aLittleLife1.jpeg" width="256">
+									<figure>
+					          <img src="aLittleLife1.jpeg" width="256">
+										<figcaption>cover page of the book</figcaption>
+									</figure>
 				        </div>
 				      </div>
 							<div class="col-lg-6">
 				        <div class="thumbnail">
-				          <img src="aLittleLife2.jpeg" width="256">
+									<figure>
+					          <img src="aLittleLife2.jpeg" width="256">
+										<figcaption>title page of the book with two first signatures</figcaption>
+									</figure>
 				        </div>
 				      </div>
 						</div>
@@ -82,6 +90,14 @@
 
 						<p>The fourth book to be on the book chain was:</p>
 						<h4><i>How to win friends and influence people</i> by Dale Carnegie</h4>
+
+						<p>Below will eventually develop into an interactive map that has the pins and info of the books
+							in the <b>Bookchain</b> going around the world. </p>
+
+						<div id="map"></div>
+						<script async defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgMgILeQBwjNfdeeNA1n-UmhstI08zzJQ&callback=initMap">
+						</script>
 
             <hr>
           </div>
