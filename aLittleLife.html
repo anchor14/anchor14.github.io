@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>a little life</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="index.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <h2>A little Life by Hanya Yanagihara</h2>
+      <p>This was the very first book that motivated me to start the <b>Bookchain</b> project. Nikolaj Nielsen, a
+        very good friend of mine, gave me this book at the end of his trip in Seoul(Summer, 2019) since he could not
+        carry this book back home. It was the longest English book I have read and possibly one of the longest novels
+        I have read in my life. This book reignited my love for novels, which had been out of my hands for quite a while.
+        With thanks to Nikolaj.</p>
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="content">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="thumbnail">
+                  <figure>
+                    <img src="aLittleLife1.jpeg" width="256">
+                    <figcaption>cover page of the book</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="thumbnail">
+                  <figure>
+                    <img src="aLittleLife2.jpeg" width="256">
+                    <figcaption>title page of the book with two first signatures</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>Below map shows the current location of the book. </p>
+
+      <div id="map"></div>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgMgILeQBwjNfdeeNA1n-UmhstI08zzJQ&callback=initMap">
+      </script>
+    </div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
