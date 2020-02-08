@@ -29,6 +29,11 @@ hr {
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
+
+h5 {
+  text-align: center;
+}
+
 /* Set the size of the div element that contains the map */
 #map {
   height: 400px;  /* The height is 400 pixels */
