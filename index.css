@@ -7,6 +7,11 @@ h2 {
 /*  height: 300px;*/
 /*}*/
 
+iframe {
+ margin-left: 300px;   /* Automatic margin from left */
+ margin-right: auto; /* Automatic margin from right */
+}
+
 img {
   border-radius: 5%;
 	width: 28%;
