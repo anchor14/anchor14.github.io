@@ -8,8 +8,10 @@ h2 {
 /*}*/
 
 iframe {
- margin-left: 300px;   /* Automatic margin from left */
- margin-right: auto; /* Automatic margin from right */
+ margin-left: auto;   
+ margin-right: auto;
+  /* Automatic margin from right */ */
+ /* position: static; */
 }
 
 img {
