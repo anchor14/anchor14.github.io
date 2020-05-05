@@ -2,6 +2,8 @@ var password;
 
 var pass1="culo";
 
+while (password !== pass1) {
+  
 password=prompt('Please enter your password to view this page!',' ');
 
 if (password==pass1){
@@ -9,4 +11,5 @@ if (password==pass1){
 }
 else {
   alert("Incorrect password-Try again");
+  }
 }
