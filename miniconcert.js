@@ -1,6 +1,7 @@
 var password;
 
 var pass1="culo";
+var counter = 0;
 
 while (password !== pass1) {
   
@@ -11,5 +12,14 @@ while (password !== pass1) {
   }
   else {
     alert("Incorrect password-Try again");
+    counter++;
+    
+    if (counter==5) {
+      alert("fuck off now");
+      return false;
     }
+    }
+    
+  
 }
+
