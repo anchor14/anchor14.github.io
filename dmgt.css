@@ -1,3 +1,11 @@
 /* img {
   border-radius: 50%;
 } */
+
+.thumbnail {
+border: 0;
+}
+
+.img {
+  border: 1px;
+}
