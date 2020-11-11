@@ -2,31 +2,31 @@
   margin-bottom: 4em;
 }
 
-/* img {
+img {
   border-radius: 50%;
-} */
+}
 
 /* .thumbnail {
 border: 0;
-} */
+}
 
-/* .img {
+.img {
   border: 1px;
 } */
 
-/* .thumbnail { */
-    /* position: relative;
+.thumbnail {
+    position: relative;
     display: inline-block;
 }
 .thumbnail .img-top {
-    width: 91%;
+    width: 100%;
     display: none;
     position: absolute;
     top: 0;
-    left: 500;
+    left: 0;
     z-index: 99;
 }
 .thumbnail:hover .img-top {
     border-radius: 50%;
     display: inline;
-    } */
+}
