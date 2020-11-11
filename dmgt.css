@@ -1,30 +1,32 @@
+.thumbnail {
+  margin-bottom: 4em;
+}
+
 /* img {
   border-radius: 50%;
 } */
 
-.thumbnail {
+/* .thumbnail {
 border: 0;
-}
+} */
 
 /* .img {
   border: 1px;
 } */
 
-<style>
-    .thumbnail {
-        position: relative;
-        display: inline-block;
-    }
-    .thumbnail .img-top {
-        width: 91%;
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 1;
-        z-index: 99;
-    }
-    .thumbnail:hover .img-top {
-        border-radius: 50%;
-        display: inline;
-    }
-</style>
+/* .thumbnail { */
+    /* position: relative;
+    display: inline-block;
+}
+.thumbnail .img-top {
+    width: 91%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 500;
+    z-index: 99;
+}
+.thumbnail:hover .img-top {
+    border-radius: 50%;
+    display: inline;
+    } */
