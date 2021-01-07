@@ -10,11 +10,11 @@ while (password != pass1) {
     alert('Welcome!');
   }
   else {
-    alert("If you don't know the pw or can't type properly then fuck off");
+    alert("You need authorization to view this essay. Please ask me for the password!");
     counter++;
   }
 
   if (counter==5) {
-    alert("fuck off now");
+    alert("don't give up!");
   }
 }
